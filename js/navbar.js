@@ -2,8 +2,8 @@
 
     window.addEventListener('scroll', function () {
       if (window.pageYOffset > 100) {
-        nav.classList.add('bg-light', 'shadow');
+        nav.classList.add('bg-light');
       } else {
-        nav.classList.remove('bg-light', 'shadow');
+        nav.classList.remove('bg-light');
       }
     });
