@@ -1,0 +1,74 @@
+.banner-image {
+
+    background-image: url(slide2.jpg);
+    background-position: 50%;
+    background-size: cover;
+    
+}
+
+.info-text, .sub-header {
+    font-family: Exodus;
+}
+
+.navbar {
+    background-color: rgba(7, 7, 7, 0.1);
+ 
+    font-family: Alliance;
+    -webkit-text-fill-color: black;
+}
+
+
+
+@font-face {
+    font-family: Exodus;
+    src: url(fonts/Exodus.otf);
+}
+
+@font-face {
+    font-family: Alliance;
+    src: url(fonts/Alliance.otf);
+}
+
+p {
+    font-family: Alliance;
+}
+
+
+#main2 {
+    background-color: rgb(180, 225, 255);
+}
+
+#main3 {
+    background-color: rgb(181, 148, 243);
+}
+
+
+
+.form-control, .form-control:enabled {
+    background-color: rgb(31, 31, 31); 
+    border:0px solid transparent;
+    box-shadow: none;
+}
+
+.navbar-toggler, .navbar-toggler:focus {
+    box-shadow: none;
+    border:0px solid transparent;
+}
+
+.btn-close, .btn-close:focus {
+    box-shadow: none;
+    border:0px solid transparent;
+}
+.offcanvas.show, .offcanvas-end  {
+
+    background-color: rgba(43, 43, 43, 0.5);
+    backdrop-filter: blur(3px);
+    border: 0px;
+}
+
+
+#footer {
+    background-color: rgb(24, 24, 24);
+    -webkit-text-fill-color: rgb(219, 219, 219);
+}
+

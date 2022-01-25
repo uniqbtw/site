@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>WEAR STORE</title>
+
+</head>
+<body> 
+
+<!-- Навбар -->
+
+    <div id="navbar" class="container-fluid fixed-top navbar navbar-light">
+        <nav class= " navbar-expand-md container-sm ">
+            <a class="navbar-brand position-absolute start-50 translate-middle " href="#"><h1>BRAND MANE</a></h1></a>
+            <button 
+            class="navbar-toggler "
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="container-fluid  text-center d-none d-md-block ">
+                <div class="d-flex">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link fs-6 b" href="#">COLLECTIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MAN</a>
+                    </li>
+                </ul>
+                
+                <div class=" navbar-nav ">
+                    <ul class="navbar-nav flex-grow-1 ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SEARCH</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ACCOUNT</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">CART(2)</a>
+                        </li>  
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <div class="offcanvas offcanvas-end d-md-none d-sm-block"  id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title info-text display-5 text-center mx-auto" id="offcanvasNavbarLabel">Navigation Menu</h5>
+                    
+                </div>
+                <div class="offcanvas-body text-center">
+                    <ul class="navbar-nav flex-grow-1 pe-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-6 b" href="#">COLLECTIONS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">WOMEN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">MAN</a>
+                        </li>
+                    </ul>
+                    <div class="justify-content-end navbar-nav ">
+                        <ul class="navbar-nav flex-grow-1 ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SEARCH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ACCOUNT</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">CART(2)</a>
+                            </li>
+                            <div class="d-flex justify-content-center mt-3 ">
+                            <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>  
+                        </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!-- Главная страница без карусели
+
+<div id="first" class="banner-image container-fluid w-100 vh-100 text-black">
+    <div class="h-50 position-absolute top-50 start-50 translate-middle">
+        <h1 class="info-text display-1 text-center col-md-12">NEW ARRIVALS</h1>
+    </div>
+    <div class="position-absolute top-50">
+        <div class="col-7 ms-4">
+            <h2 class="display-3 sub-header">NO.01</h2>
+            <p class="fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas, illum reprehenderit sequi assumenda unde!</p>
+        </div>
+    </div>
+</div>
+
+-->
+
+
+<!-- Главная страница + карусель -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators  mb-5">
+        
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        
+        <div id="main" class="banner-image container-fluid w-100 vh-100 text-black">
+            <div class="h-50 position-absolute top-50 start-50 translate-middle">
+                <h1 class="info-text display-1 text-center col-md-12">NEW ARRIVALS</h1>
+            </div>
+            <div class="position-absolute top-50">
+                <div class="col-lg-5 col-md-6 col-sm-7 col-11 ms-sm-5">
+                    <h2 class="display-3 sub-header">NO.01</h2>
+                    <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas, illum reprehenderit sequi assumenda unde!</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+
+        <div id="main2" class="container-fluid w-100 vh-100 text-black">
+            <div class="h-50 position-absolute top-50 start-50 translate-middle">
+                <h1 class="info-text display-1 text-center col-md-12">NEW COLLECTIONS</h1>
+            </div>
+            <div class="position-absolute top-50">
+                <div class="col-lg-5 col-md-6 col-sm-7 col-11 ms-sm-5">
+                    <h2 class="display-3 sub-header">NO.02</h2>
+                    <p class="fs-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatum possimus, eligendi neque illum autem iste ullam pariatur enim dignissimos.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        
+        <div id="main3" class="container-fluid w-100 vh-100 text-black">
+            <div class="h-50 position-absolute top-50 start-50 translate-middle">
+                <h1 class="info-text display-1 text-center col-md-12">SOMETHING NEW</h1>
+            </div>
+            <div class="position-absolute top-50">
+                <div class="col-lg-5 col-md-6 col-sm-7 col-11 ms-sm-5">
+                    <h2 class="display-3 sub-header">NO.03</h2>
+                    <p class="fs-5 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero excepturi, reiciendis tempora ea dolor, labore a quia fuga magni est aut nobis provident maiores recusandae.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+  
+  
+
+  </div>
+
+
+<!-- Новые коллекции -->
+<div id="collections" class="container-fluid mt-5 mb-5 text-start mx-auto ">
+    <div class="label ">
+        <h1 class="info-text mb-3 display-4 border-bottom border-top border-2 border-dark pb-2 text-center mx-auto">
+            <a href="#" class="text-decoration-none text-black ">NEW COLLECTIONS</a>
+        </h1>
+    </div>
+
+    <div class="container-fluid g-2 g-sm-3 g-md-4 g-lg-5 ">
+        <div class="row g-4 mb-3 ">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-none d-lg-block">
+                <div class="card " style="">
+                    <img src="hmgoepprod.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-none d-md-block">
+                <div class="card" style="">
+                    <img src="hmgoepprod.jpg" class="card-img-top " alt="...">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-block">
+                <div class="card" style="">
+                    <img src="hmgoepprod.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card " style="">
+                    <img src="hmgoepprod.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between ms-1 me-1 me-lg-5 ms-lg-5">
+        <div class="col-9 col-lg-4 col-md-6 ">
+            <div class="desc-text">
+                <h1>Name</h1>
+            </div>
+            <div class="desc-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis consequatur quam tenetur quo accusantium.</p>
+            </div>
+        </div>
+        <div class="position-relative col-2">
+            <div class="position-absolute top-50 end-0 translate-middle-y">
+                <button type="button" class="btn btn-success">Shop Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Категории -->
+<div id="category" class="container mt-5 mb-5 text-center mx-auto">
+    <h1 class="info-text  display-4  border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">WOMENSWEAR</a>
+    </h1>
+    <h1 class="info-text display-4 border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">MANSWEAR</a>
+    </h1>
+    <h1 class="info-text  display-4  border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">CHILDSWEAR</a>
+    </h1>
+    <h1 class="info-text display-4  border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">FOOTWEAR</a>
+    </h1>
+    <h1 class="info-text display-4  border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">ACCESSORIES</a>
+    </h1>
+    <h1 class="info-text display-4 border-bottom border-top border-2 border-dark p-2">
+        <a href="#" class="text-decoration-none text-black ">COLLECTIONS</a>
+    </h1>
+</div>
+
+<!-- Лукбук -->
+<div id="lookbook" class="container-fluid  mb-5 text-start mx-auto text-center">
+    <div class="label ">
+        <h1 class="info-text mb-3 display-4 border-bottom border-top border-2 border-dark pb-2 ">
+            <a href="#" class="text-decoration-none text-black ms-4 ">LOOK BOOK</a>
+        </h1>
+    </div>
+
+    <div class="m-4">
+        <div class="container-fl d-flex justify-content-center row mb-4">
+            <div class=" col-sm-6 col-md-3 align-self-sm-center d-none d-sm-block order-0 ">
+                <div class="card" style="">
+                    <img src="da.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repellendus!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-3 col-md-4 align-self-sm-center d-none d-sm-none d-md-block order-1 ">
+                <div class="card" style="">
+                    <img src="net.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-12 col-sm-6  col-md-3 align-self-sm-center order-2">
+                <div class="card" style="">
+                    <img src="da.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repellendus!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" d-flex justify-content-center row ">
+            <div class="col-3">
+            <button type="button" class="btn btn-success mx-auto text-center">View More</button>
+        </div>
+        </div>
+    </div>  
+</div>
+
+<!-- Видео -->
+<div id="video" class="container-fluid mt-5 mb-5 ">
+    <div class="container-fluid mt-5 mb-5 text-start mx-auto ">
+        <div class="label">
+            <h1 class="info-text mb-3 display-4 border-bottom border-top border-2 border-dark pb-2 ">
+                <a href="#" class="text-decoration-none text-black mx-5">PROMO TRAILER</a>
+            </h1>
+        </div>
+
+    <div class="container">
+        <div class="ratio ratio-16x9 ">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ib_-GTJIxzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Инста -->
+<div id="video" class="container-fluid mt-5 mb-5 g-2">
+    <div id="collections" class="container-fluid mt-5 mb-5 text-start mx-auto ">
+        <div class="label ">
+            <h1 class="info-text mb-3 display-4 border-bottom border-top border-2 border-dark pb-2 ">
+                <a href="#" class="text-decoration-none text-black mx-5 d-flex justify-content-end">OUR INSTAGRAM</a>
+            </h1>
+        </div>
+
+    <div class="container-fluid mx-auto g-3 ">
+        <div class="row me-3 ms-3" >
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3  g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-sm-block d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-sm-block d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-sm-block d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-md-block d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-md-block d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-lg-block d-md-none d-none g-3" alt="...">
+            <img src="mami.png" class="col-12 col-sm-6 col-md-4 col-lg-3 d-lg-block d-md-none d-none g-3" alt="...">
+    </div>
+</div>
+</div>
+</div>
+
+
+<!-- Footer -->
+<div id="footer" class="container-fluid  ">
+    <div class="d-flex justify-content-between ms-2 me-2">
+        <div class="col-5 col-lg-5 text-white ">
+            <h1 class="info-text display-5 mt-3">NEWSLETTER</h1>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, accusantium.</p>
+            <input type="email" class=" form-control mb-4" id="exampleFormControlInput1" placeholder="name@example.com">
+
+        </div>
+        <div class=" position-relative col-3 mt-3">
+            <div class=" position-absolute top-50 end-0 translate-middle-y ">
+                <p><a href="#" class="text-decoration-none text-white d-flex justify-content-end">Contact</a></p>
+                <p><a href="#" class="text-decoration-none text-white d-flex justify-content-end">Terms of use</a></p>
+                <p><a href="#" class="text-decoration-none text-white d-flex justify-content-end">Returns policy</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
