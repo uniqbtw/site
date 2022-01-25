@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background-color: rgba(7, 7, 7, 0.1);
+    background-color: rgba(29, 29, 29, 0);
  
     font-family: Alliance;
     -webkit-text-fill-color: black;
@@ -60,9 +60,9 @@ p {
     border:0px solid transparent;
 }
 .offcanvas.show, .offcanvas-end  {
-
-    background-color: rgba(43, 43, 43, 0.5);
-    backdrop-filter: blur(3px);
+    background-color: rgba(206, 206, 206, 0.637);
+    backdrop-filter: blur(5px);
+  
     border: 0px;
 }
 
@@ -70,5 +70,10 @@ p {
 #footer {
     background-color: rgb(24, 24, 24);
     -webkit-text-fill-color: rgb(219, 219, 219);
+}
+
+.bg-light {
+    opacity: 80%;
+    transition: opacity(0.5)
 }
 
