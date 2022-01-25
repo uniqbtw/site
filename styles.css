@@ -11,12 +11,14 @@
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(7, 7, 7, 0.1);
     font-family: Alliance;
     -webkit-text-fill-color: black;
 }
 
-
+.nvs {
+    background-color: rgba(255, 255, 255, 0.8);
+}
 
 @font-face {
     font-family: Exodus;
