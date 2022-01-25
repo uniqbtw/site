@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background-color: rgba(29, 29, 29, 0);
+    background-color: rgba(201, 201, 201, 0.5);
  
     font-family: Alliance;
     -webkit-text-fill-color: black;
@@ -58,7 +58,7 @@ p {
     box-shadow: none;
     border:0px solid transparent;
 }
-.offcanvas.show, .offcanvas-end  {
+#offcanvasNavbar {
     background-color: rgba(206, 206, 206, 0.637);
     backdrop-filter: blur(5px);
     border: 0px;
