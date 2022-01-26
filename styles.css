@@ -1,9 +1,11 @@
 .banner-image {
-
     background-image: url(img/slide2.jpg);
     background-position: 50%;
     background-size: cover;
-    
+}
+
+::-webkit-scrollbar{
+	width: 10px;
 }
 
 .info-text, .sub-header {
